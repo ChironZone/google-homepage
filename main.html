@@ -7,72 +7,75 @@
     <title>Google</title>
 
     <!-- CSS Stylesheet and Reset -->
-    <link type="text/css" rel="stylesheet" href="reset.css" />
     <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link type="text/css" rel="stylesheet" href="reset.css" />
     <link rel="shortcut icon" href="favicon.png" type="image/png">
   </head>
 
   <body>
-    <div id="header"> <!-- The div for the upper right menu-->
-      <div class="h_i">
-        <a href="#">+You</a>
-      </div>
-      <div class="h_i">
-        <a href="#">Gmail</a>
-      </div>
-      <div class="h_i">
-        <a href="#">Images</a>
-      </div>
-      <div class="h_i">
-        <a href="#" title="Apps">
-          <img src="apps.png" />
-        </a>
-      </div>
-      <div class="h_i">
-        <div id="h_si" style="padding:4px 4px;">
-          <a href="#">Sign in</a>
-        </div>
-      </div>
-    </div>
-    <div id="center">
-      <div id="glogospace"> <!-- The div containing the google logo and search box and buttons-->
-        <img id="glogo" src="https://www.google.com/images/srpr/logo11w.png" style="height:95px; width:269px;" alt="Google Logo"/>
-      </div>
-      <div id="gs">
-        <form name="g_search">
-          <input id="searchbox" autofocus="true" type="text" value="" name="search_terms">
-        </form>
-      </div>
-        <div id="searchbutton">
-          <a href="#">Google Search</a>
-        </div>
-        <div id="luckybutton">
-          <a href="#">I'm Feeling Lucky</a>
-        </div>
-      </div>
-    </div>
-    <div id="footer"> <!-- The div for the bottom menu-->
-      <div id="fbar">
-        <div id="f_l"> <!-- The div for the bottom left menu-->
-          <div class="f_i">
-            <a href="#">Advertising</a>
+    <div id="wrapper">
+      <div id="header"> <!-- The div for the upper right menu-->
+        <div id="header_r">
+          <div class="h_i">
+            <a href="#">+You</a>
           </div>
-          <div class="f_i">
-            <a href="#">Business</a>
+          <div class="h_i">
+            <a href="#">Gmail</a>
           </div>
-          <div class="f_i">
-            <a href="#">About</a>
+          <div class="h_i">
+            <a href="#">Images</a>
+          </div>
+          <div class="h_i">
+            <a href="#" title="Apps">
+              <img src="apps.png" />
+            </a>
+          </div>
+          <div class="h_i">
+            <div id="h_si" style="padding:0px 12px; border-radius:2px;">
+              <a href="#">Sign in</a>
+            </div>
           </div>
         </div>
-        <div id="f_r"> <!-- The div for the bottom right menu-->
-          <div class="f_i">
-            <a href="#">Privacy</a>
+      </div>
+      <div id="center">
+        <div id="glogospace"> <!-- The div containing the google logo and search box and buttons-->
+          <img id="glogo" src="https://www.google.com/images/srpr/logo11w.png" style="height:95px; width:269px;" alt="Google Logo"/>
+        </div>
+        <div id="gs">
+          <form name="g_search">
+            <input id="searchbox" autofocus="true" type="text" value="" name="search_terms">
+          </form>
+        </div>
+          <div id="searchbutton">
+            <a href="#">Google Search</a>
           </div>
-          <div class="f_i">
-            <a href="#">Terms</a>
+          <div id="luckybutton">
+            <a href="#">I'm Feeling Lucky</a>
           </div>
-          <div class="f_i" style="padding-right: 27px">
-            <a href="#">Settings</a>
+        </div>
+      <div id="footer"> <!-- The div for the bottom menu-->
+        <div id="fbar">
+          <div id="f_l"> <!-- The div for the bottom left menu-->
+            <div class="f_i">
+              <a href="#">Advertising</a>
+            </div>
+            <div class="f_i">
+              <a href="#">Business</a>
+            </div>
+            <div class="f_i">
+              <a href="#">About</a>
+            </div>
+          </div>
+          <div id="f_r"> <!-- The div for the bottom right menu-->
+            <div class="f_i">
+              <a href="#">Privacy</a>
+            </div>
+            <div class="f_i">
+              <a href="#">Terms</a>
+            </div>
+            <div class="f_i" style="padding-right: 27px">
+              <a href="#">Settings</a>
+            </div>
           </div>
         </div>
       </div>

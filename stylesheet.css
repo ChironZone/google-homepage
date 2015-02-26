@@ -2,6 +2,12 @@
 
 body {
   font-family:Arial, sans-serif;
+  height:100%
+}
+
+#wrapper{
+  min-height:100%;
+  position:relative;
 }
 
 .h_i,.f_i {
@@ -9,12 +15,18 @@ body {
   line-height:24px;
 }
 #header{
+  padding:10px 30px 10px 10px;
+  height:60px;
+}
+#header_r {
   float:right;
   vertical-align:middle;
-  margin-top:5px;
-  padding-right:30px;
 }
-#h_si {
+div#header_r div a img {
+  position:relative;
+  top:10px;
+}
+div#header_r div div#h_si {
   border: 1px solid #4285F4;
   font-weight: bold;
   font-color:white;
@@ -24,21 +36,16 @@ body {
 #header a{
   color:#5E5656;
   font-size:13px;
-  font-family:Arial,sans-serif;
 }
 #h_si a {
   font-weight: bold;
   color:white;
   text-align:center;
+  line-height:28px;
 }
 .h_i {
   margin-left:15px;
 }
-body div div a img{
-  position:relative;
-  top:10px;
-}
-
 #header a:hover {
   color:black;
   text-decoration:underline;
@@ -50,10 +57,13 @@ body div div a img{
 #center{
   text-align:center;
   clear:both;
+  padding:10px;
+  padding-bottom: 35px;
 }
 #glogospace {
   height:231px;
   margin-top:20px;
+  clear:both;
 }
 #glogo{
   display:block;
@@ -65,36 +75,38 @@ body div div a img{
   width:300px;
 }
 
-body div div div div a {
-  color: #5B5B58;
-}
-
 #footer {
-  bottom: 0px;
-  font-size: 10pt;
+  width: 100%;
   height: 35px;
   position: absolute;
-  width: 100%;
-  display:block;
-  margin: 0px auto;
-  min-width: 980px;
+  bottom: 0px;
+  left:0px;
+
+  border-top: 1px solid #E4E4E4;
+  background-color:#F2F2F2
 }
 #fbar {
-  border-top: 1px solid #E4E4E4;
+  background-color:#F2F2F2
   padding:6px;
-  line-height: 40px;
+  line-height: 35px;
   min-width: 980px;
 }
-#f_l{
+div#f_l{
   float:left;
-  color: #5B5B58;
 }
-#f_r {
-  color: #5B5B58;
+div#f_r {
   float:right;
+}
+div#f_l a, div#f_r a{
+  color: #666;
+  font-size: 10pt;
 }
 
 .f_i {
   padding-left: 27px;
   margin: 0px !important;
+}
+
+div#fbar div#f_l a.f_i {
+  color: #5B5B58;
 }
